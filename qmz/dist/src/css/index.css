@@ -1,0 +1,316 @@
+@charset "UTF-8";
+/*不一样的味道*/
+.cont_tast{
+	width: 100%;
+	padding: 30px 0 70px;
+	/*height: 400px;*/
+	background: url(../../images/index/bg1.png) no-repeat;
+    background-size: cover;
+}
+.ct_left{
+	width: 66%;
+	margin: 0 auto;
+	text-align: center;
+}
+/*酸汤鱼*/
+.cont_fish{
+	width: 100%;
+	padding: 70px 0;
+	/*height: 588px;*/
+	background: url(../../images/index/bg2.png) no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+/*苗家美味*/
+.cont_deli{
+	width: 100%;
+	padding: 60px 0 135px;
+	/*height: 725px;*/
+	background: url(../../images/index/bg3.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.cd_inner ul li{
+	width: 25%;
+}
+.cdli_cont{
+	width: 82%;
+    margin: 0 auto;
+	background:#ffffff;
+	-moz-box-shadow:0 2px 20px 0 rgba(0,0,0,0.12);
+	-webkit-box-shadow:0 2px 20px 0 rgba(0,0,0,0.12);
+	box-shadow:0 2px 20px 0 rgba(0,0,0,0.12);
+	border-radius:10px;
+    overflow: hidden;
+    text-align:left;
+}
+.cd_img{
+	width: 100%;
+	height: 260px;
+}
+.cd_img>img{
+	background:#d8d8d8;
+	border-radius:10px 10px 0 0;
+	height: 100%;
+}
+.cd_img_su>img{ width: 100%;}
+.cd_tit1{
+    font-family: MicrosoftYaHei;
+    font-size: 11px;
+    color: #db2f2f;
+    letter-spacing: 0.41px;
+    padding: 15px 0 5px 15px;
+}
+.cd_tit2{
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 16px;
+    color: #323232;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    padding: 0 0 20px 15px;
+}
+.cd_ol{
+    bottom: -70px!important;
+}
+.cd_ol>li{
+    height: 23px;
+    width: 23px;
+    border-radius: 0;
+    border: none;
+    margin: 0 12px;
+    padding: 0;
+    background: url(../../images/index/Bitmap.png) no-repeat;
+    background-size: cover;
+}
+.cd_ol>li.active{
+	height: 28px;
+    width: 28px;
+    border-radius: 0;
+    border: none;
+    margin: 0 12px;
+    padding: 0;
+	background: url(../../images/index/Bitmap_ac.png) no-repeat;
+    background-size: cover;
+}
+/*山水雅楼*/
+.cont_see{
+	width: 100%;
+	/*height: 620px;*/
+	background-color: #fff;
+}
+.cont_see img{ width: 100%;}
+.cs_info{
+	position: relative;
+}
+.cs_bg1{
+    width: 280px;
+    position: absolute;
+    bottom: 0;
+    left: 26%;
+}
+.cs_bg2{
+    width: 200px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.cs_text{
+    width: 40%;
+    padding: 26% 0 25px;
+    text-align: left;
+    margin-left: 40%;
+}
+.cs_tit1{
+	font-family:STSongti-SC-Regular;
+	font-size:36px;
+	color:#4a4a4a;
+}
+.cs_tit2{
+	font-family:Athelas-Regular;
+	font-size:16px;
+	color:#4a4a4a;
+	margin:5px 0;
+}
+.cs_tit3{
+	font-family:Athelas-Bold;
+	font-size:38px;
+	color:#4a4a4a;
+	margin-bottom: 20px;
+}
+.cs_tit4{
+	font-family:MicrosoftYaHei;
+	font-size:16px;
+	color:#323232;
+	line-height:28px;
+}
+/*苗家歌舞*/
+.cont_dance{
+	width: 100%;
+	padding: 40px 0 80px;
+	/*height: 1366px;*/
+	background: url(../../images/index/bg5.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.cdan_info{
+    position: relative;
+}
+.cdan_right{
+	width: 62%;
+}
+.cdan_info img{ 
+	width: 100%;
+	background:#ebebeb;
+	border-radius:10px;
+}
+.cdan_left{
+	width: 44%;
+	background-color:#ffffff;
+	border-radius:10px;
+	padding: 35px 40px;
+	-moz-box-shadow:0 2px 20px 0 rgba(0,0,0,0.12);
+	-webkit-box-shadow:0 2px 20px 0 rgba(0,0,0,0.12);
+	box-shadow:0 2px 20px 0 rgba(0,0,0,0.12);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+.cdan_left1 {
+    left: inherit;
+    right: 0;
+}
+.cdan_tit1{
+	font-family:MicrosoftYaHei;
+	font-size:18px;
+	color:#323232;
+	letter-spacing:0.64px;
+}
+.cdan_tit2{
+	font-family:MicrosoftYaHei;
+	font-size:14px;
+	color:#656565;
+	letter-spacing:0.5px;
+	margin: 10px 0 20px;
+}
+.cdan_tit3{
+	font-family:MicrosoftYaHei;
+	font-size:14px;
+	color:#656565;
+	line-height:24px;
+}
+/*加盟合作*/
+.cont_join{
+	width: 100%;
+	/*height: 529px;*/
+	padding: 75px 0 70px;
+	background: url(../../images/index/bg6.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.cj_tit1{
+	font-family:Athelas-Regular;
+	font-size:12px;
+}
+.cj_tit2{
+	font-family:STSongti-SC-Black;
+	font-size:38px;
+	font-weight: bold;
+	margin: 8px 0 50px;
+}
+.cj_tit3{
+	font-family:MicrosoftYaHei;
+	font-size:16px;
+	color:#dddddd;
+	line-height:28px;
+}
+/*贵州情*/
+.cont_food{
+	width: 100%;
+	/*height: 614px;*/
+	padding: 80px 0 110px;
+	background: url(../../images/index/bg7.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.cf_info{ 
+	height:300px;
+	width:100%;
+	overflow:hidden;
+	position:relative; 
+}
+.cf_info ul{
+	height:100%;
+	width:100000px;
+	position:absolute;
+	left:0;
+}
+.cf_info ul li{ 
+	margin:0 20px;
+	width: 300px;
+	height:100%;
+	border-radius:5px;
+	position:relative;
+}
+.cf_info ul li a{
+	display:block;
+	height:100%;
+	width: 100%;
+	overflow: hidden;
+	border-radius:10px;
+	text-align: center;
+} 
+.cf_info ul li img{
+	background-color:#d8d8d8;
+	height:100%;
+	-moz-box-shadow:0 2px 20px 0 rgba(0,0,0,0.30);
+	-webkit-box-shadow:0 2px 20px 0 rgba(0,0,0,0.30);
+	box-shadow:0 2px 20px 0 rgba(0,0,0,0.30);
+	margin: 0 -100%;
+}
+.cf_info ul li.su img{ width: 100%;}
+.cf_info ul li a span{
+	height:0;
+	display:block;
+	background:rgba(0,0,0,0.4);
+	position:absolute;
+	bottom:0;
+	color:#fff;
+	font-size:0px;
+}
+.cf_info ul li a:hover span{
+	display: block;
+	height:100%;
+	width: 100%;
+	padding-top: 20%;
+	font-size:20px;
+	border-radius:10px;
+	text-align:center;
+	transition:all 0.7s;
+	-ms-transition:all 0.7s;
+	-moz-transition:all 0.7s;
+	-webkit-transition:all 0.7s;
+	-o-transition:all 0.7s;
+}
+/*媒体查询*/
+@media (max-width: 1680px){
+	.cs_bg2{ width: 140px;}
+	.cs_text{ padding: 26% 0 0;}
+}
+@media (max-width: 1440px){
+	
+}
+@media (max-width: 1366px){
+	
+}
+@media (max-width: 1280px){
+	
+}
+@media (max-width: 1024px){
+	
+}
